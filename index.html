@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -6,21 +6,110 @@
   <title>Machine Learning & Statistical Inference Portfolio</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
   <style>
-    body { max-width: 950px; margin: 40px auto; padding: 0 20px; line-height: 1.6; }
+    body { max-width: 980px; margin: 40px auto; padding: 0 20px; line-height: 1.6; }
     table { width: 100%; border-collapse: collapse; margin: 25px 0; }
     th, td { padding: 12px 14px; border: 1px solid #444; }
     th { background: #1f2428; color: #fff; }
     pre { background: #161b22; padding: 16px; border-radius: 6px; overflow-x: auto; }
     code { font-family: Consolas, monospace; }
-    a { color: #58a6ff; }
+    a { color: #58a6ff; font-weight: 600; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    hr { margin: 40px 0; border: none; border-top: 1px solid #444; }
   </style>
 </head>
 <body>
-<h2>🛠️ Environment &amp; Reproducibility</h2>
+
+<h1>🔬 Machine Learning & Statistical Inference Portfolio</h1>
+<p>An empirical 11-module laboratory spanning classical parametric inference, margin-based classification, ensemble architectures, deep representations, and temporal dynamics.</p>
+
+<h2>📊 Module Benchmark Directory</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Module</th>
+      <th>Methodology</th>
+      <th>Dataset</th>
+      <th>Key Focus & Primary Metric</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="./01_linear_regression.html">01. Linear Regression</a></td>
+      <td>OLS Closed-Form vs Gradient Descent</td>
+      <td>Diabetes Progression</td>
+      <td>Homoscedasticity & Residual Diagnostics</td>
+    </tr>
+    <tr>
+      <td><a href="./02_logistic_regression.html">02. Logistic Regression</a></td>
+      <td>Log-Odds & Threshold Tuning</td>
+      <td>Breast Cancer Biopsy</td>
+      <td>ROC-AUC (0.994) & Clinical Zero-FN</td>
+    </tr>
+    <tr>
+      <td><a href="./03_decision_trees_random_forest.html">03. Decision Trees & Ensembles</a></td>
+      <td>CART vs Bagged Forest</td>
+      <td>Wine Terroir</td>
+      <td>Variance Reduction & Gini Impurity</td>
+    </tr>
+    <tr>
+      <td><a href="./04_support_vector_machines.html">04. Support Vector Machines</a></td>
+      <td>Linear vs RBF Kernel SVM</td>
+      <td>Iris Morphometrics</td>
+      <td>Maximal Margin & Support Vector Sparsity</td>
+    </tr>
+    <tr>
+      <td><a href="./05_classification_benchmarking.html">05. Classification Benchmark</a></td>
+      <td>LogReg / k-NN / CART / Naive Bayes</td>
+      <td>Wine Chemometrics</td>
+      <td>Multi-Class Macro F1 & Latency Profiling</td>
+    </tr>
+    <tr>
+      <td><a href="./06_dimensionality_reduction_pca_lda.html">06. PCA vs. LDA</a></td>
+      <td>Unsupervised SVD vs Supervised Fisher</td>
+      <td>13D Wine Cultivars</td>
+      <td>Variance Retention vs Class Separation</td>
+    </tr>
+    <tr>
+      <td><a href="./07_unsupervised_clustering.html">07. Unsupervised Clustering</a></td>
+      <td>K-Means vs Ward's Hierarchical</td>
+      <td>Unlabeled Iris</td>
+      <td>Silhouette Analysis & Dendrogram Trees</td>
+    </tr>
+    <tr>
+      <td><a href="./08_gradient_boosting.html">08. Gradient Boosting</a></td>
+      <td>Residual Boosting (GBM)</td>
+      <td>Breast Cancer Oncology</td>
+      <td>Learning Rate Decay & Pseudo-Residuals</td>
+    </tr>
+    <tr>
+      <td><a href="./09_regularization_techniques.html">09. Regularization</a></td>
+      <td>Ridge (L2) vs Lasso (L1)</td>
+      <td>Collinear Diabetes Matrix</td>
+      <td>Shrinkage Paths & Multi-Collinearity Control</td>
+    </tr>
+    <tr>
+      <td><a href="./10_neural_networks_mlp.html">10. Neural Networks (MLP)</a></td>
+      <td>Multi-Layer Perceptron (Adam)</td>
+      <td>Optical Digits (8x8)</td>
+      <td>Backpropagation & ReLU Gradient Flow</td>
+    </tr>
+    <tr>
+      <td><a href="./11_time_series_forecasting.html">11. Time Series Dynamics</a></td>
+      <td>Lag Autoregression vs Random Forest</td>
+      <td>Sensor Feed (730 Days)</td>
+      <td>Dickey-Fuller Stationarity & Holdout RMSE</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2>🛠️ Environment & Reproducibility</h2>
 <p>To replicate this laboratory locally, clone the repository and install the verified dependencies:</p>
 <pre><code class="language-bash">git clone https://github.com/MalharSadhu/machine-learning-portfolio.git
 cd machine-learning-portfolio
 pip install numpy pandas matplotlib seaborn scipy scikit-learn tabulate
 </code></pre>
+
 </body>
 </html>
