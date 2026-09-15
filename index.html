@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Machine Learning & Statistical Inference Laboratory</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+  <style>
+    body { max-width: 950px; margin: auto; padding: 24px; }
+    table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+    th, td { padding: 10px 12px; border: 1px solid #444; }
+    th { background: #222; color: #fff; }
+    pre { padding: 12px; border-radius: 6px; }
+  </style>
+</head>
+<body>
+<h1>🔬 Machine Learning &amp; Statistical Inference: An End-to-End Technical Portfolio</h1>
+<p>This repository houses an end-to-end data science laboratory and technical blog series spanning classical statistical inference, supervised learning, dimensionality reduction, unsupervised clustering, ensemble learning, neural representations, and time-series dynamics.</p>
+<p>Every module follows a consistent 6-stage lifecycle:
+1. <strong>Clinical / Business Domain Framing</strong>
+2. <strong>Exploratory Data Analysis (EDA) &amp; Distribution Screening</strong>
+3. <strong>Statistical Hypothesis Testing</strong> (Parametric &amp; Non-Parametric)
+4. <strong>Mathematical Derivations &amp; Objective Formulations</strong>
+5. <strong>Multi-Panel Diagnostic Visualizations</strong>
+6. <strong>Automated Live Performance Reporting &amp; Real-World Synthesis</strong></p>
+<hr />
+<h2>📊 Executive Portfolio Dashboard</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">#</th>
+<th style="text-align: left;">Module / Notebook</th>
+<th style="text-align: left;">Target &amp; Dataset</th>
+<th style="text-align: left;">Primary Algorithm(s)</th>
+<th style="text-align: left;">Statistical Validation</th>
+<th style="text-align: left;">Key Performance / Focus</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>01</strong></td>
+<td style="text-align: left;"><a href="./01_linear_regression.html"><strong>Linear Regression</strong></a></td>
+<td style="text-align: left;">Diabetes Progression ($n=442$)</td>
+<td style="text-align: left;">Ordinary Least Squares (OLS)</td>
+<td style="text-align: left;">Pearson $r$ / Spearman $\rho$</td>
+<td style="text-align: left;">$R^2 \approx 0.45$, Residual Homoscedasticity</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>02</strong></td>
+<td style="text-align: left;"><a href="./02_logistic_regression.html"><strong>Logistic Regression</strong></a></td>
+<td style="text-align: left;">Breast Cancer Biopsy ($n=569$)</td>
+<td style="text-align: left;">Binary Log-Odds &amp; Sigmoid</td>
+<td style="text-align: left;">Two-Sample Welch's $t$-test</td>
+<td style="text-align: left;">$\text{AUC} &gt; 0.99$, Type II Error Tuning</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>03</strong></td>
+<td style="text-align: left;"><a href="./03_decision_trees_random_forest.html"><strong>Decision Trees &amp; Forests</strong></a></td>
+<td style="text-align: left;">Italian Wine Terroir ($n=178$)</td>
+<td style="text-align: left;">CART vs. Bagged Random Forest</td>
+<td style="text-align: left;">One-Way ANOVA $F$-test</td>
+<td style="text-align: left;">Variance Reduction, Impurity Splitting</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>04</strong></td>
+<td style="text-align: left;"><a href="./04_support_vector_machines.html"><strong>Support Vector Machines</strong></a></td>
+<td style="text-align: left;">Iris Morphometrics ($n=150$)</td>
+<td style="text-align: left;">Linear vs. RBF Kernel SVM</td>
+<td style="text-align: left;">Kolmogorov-Smirnov ($D$)</td>
+<td style="text-align: left;">Margin Geometry, Support Vector Sparsity</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>05</strong></td>
+<td style="text-align: left;"><a href="./05_classification_benchmarking.html"><strong>Classifier Benchmarking</strong></a></td>
+<td style="text-align: left;">Wine Cultivar Benchmark ($n=178$)</td>
+<td style="text-align: left;">LogReg vs. Naive Bayes vs. $k$-NN vs. Trees</td>
+<td style="text-align: left;">Kruskal-Wallis $H$-test</td>
+<td style="text-align: left;">Inductive Bias, Independence Violation</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>06</strong></td>
+<td style="text-align: left;"><a href="./06_dimensionality_reduction_pca_lda.html"><strong>Dimensionality Reduction</strong></a></td>
+<td style="text-align: left;">13D Wine Chemometrics ($n=178$)</td>
+<td style="text-align: left;">Unsupervised PCA vs. Supervised LDA</td>
+<td style="text-align: left;">Bartlett's Test of Sphericity</td>
+<td style="text-align: left;">80% Variance Retention vs. Fisher Scatter</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>07</strong></td>
+<td style="text-align: left;"><a href="./07_unsupervised_clustering.html"><strong>Unsupervised Clustering</strong></a></td>
+<td style="text-align: left;">Unlabeled Iris Manifold ($n=150$)</td>
+<td style="text-align: left;">$K$-Means vs. Ward's Hierarchical HAC</td>
+<td style="text-align: left;">Hopkins Statistic ($H &gt; 0.75$)</td>
+<td style="text-align: left;">Silhouette Profile, Elbow Point, Dendrogram</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>08</strong></td>
+<td style="text-align: left;"><a href="./08_gradient_boosting.html"><strong>Gradient Boosting</strong></a></td>
+<td style="text-align: left;">Breast Cancer Oncology ($n=569$)</td>
+<td style="text-align: left;">Sequential Pseudo-Residuals (GBM)</td>
+<td style="text-align: left;">Mann-Whitney $U$ Test</td>
+<td style="text-align: left;">Staged Loss Decay, Learning Rate Shrinkage</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>09</strong></td>
+<td style="text-align: left;"><a href="./09_regularization_techniques.html"><strong>Model Regularization</strong></a></td>
+<td style="text-align: left;">Augmented Collinear Diabetes ($n=442$)</td>
+<td style="text-align: left;">Ridge ($L_2$) vs. Lasso ($L_1$) vs. ElasticNet</td>
+<td style="text-align: left;">Global Regression $F$-test</td>
+<td style="text-align: left;">Multicollinearity Damping, Sparsity Paths</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>10</strong></td>
+<td style="text-align: left;"><a href="./10_neural_networks_mlp.html"><strong>Neural Networks (MLP)</strong></a></td>
+<td style="text-align: left;">Handwritten Digits ($n=1797$)</td>
+<td style="text-align: left;">Multi-Layer Perceptron (Adam)</td>
+<td style="text-align: left;">$\chi^2$ Test of Independence</td>
+<td style="text-align: left;">ReLU vs. Sigmoid Vanishing Gradients</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>11</strong></td>
+<td style="text-align: left;"><a href="./11_time_series_forecasting.html"><strong>Time Series Forecasting</strong></a></td>
+<td style="text-align: left;">Environmental Sensor Feed ($N=730$)</td>
+<td style="text-align: left;">Ridge Autoregression vs. Lag Ensemble</td>
+<td style="text-align: left;">Dickey-Fuller Unit Root Test</td>
+<td style="text-align: left;">Out-of-Sample Chronological Holdout</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>🛠️ Environment &amp; Reproducibility</h2>
+<p>```bash</p>
+<h1>Clone the repository</h1>
+<p>git clone <a href="https://github.com/">https://github.com/</a><your-username>/<your-repo-name>.git
+cd <your-repo-name></p>
+<h1>Install required dependencies</h1>
+<p>pip install numpy pandas matplotlib seaborn scipy scikit-learn tabulate</p>
+</body>
+</html>
